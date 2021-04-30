@@ -1,0 +1,27 @@
+# f'{ROOT_PATH}/configs/{env}.yaml'
+# 注意配置解析出来都是字符串，请不要带单引号或者双引号
+# 例如 '0.0.0.0' "0.0.0.0" 都会报错
+
+
+#运行模式
+debug: true
+#发送是否必须有cookies
+xsrf_cookies: False
+#发送是否必须有header
+xheaders: False
+#监听地址
+arbitrary_ip: 0.0.0.0
+#监听端口
+port: 6003
+local_ip: 127.0.0.1
+translation: true
+time_zone: Asia/Shanghai
+language_code: zh-hans
+cookie_secret: e921bfcd-ace4-4124-8657-69a36e73f58e
+login_pwd_rsa_encrypt: True
+
+#要自动加载的app模块
+INSTALLED_APPS:
+  - api
+
+default_cache: "default"
