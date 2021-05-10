@@ -182,13 +182,13 @@ cfg = {
 
 **查询什么**
 
-> get*position *获取市价委托的 F6 持仓\_
+> get_position *获取市价委托的 F6 持仓
 
-> get*today_trades *获取市价委托的 F7 当日成交\_
+> get_today_trades *获取市价委托的 F7 当日成交
 
-> get*today_entrusts *获取市价委托的 F8 委托\_ **(推荐使用此种方式查询委托的成交)**
+> get_today_entrusts *获取市价委托的 F8 委托  **(推荐使用此种方式查询委托的成交)**
 
-> get*balance *获取资金情况\_
+> get_balance *获取资金情况
 
 ---
 
